@@ -1,0 +1,26 @@
+{
+  "name": "azericard-payment-integration",
+  "version": "0.1.2",
+  "description": "ABB/AzeriCard payment form generator and signature utilities.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "abb",
+    "azericard",
+    "payment",
+    "3dsecure",
+    "bank"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "typescript": "^5.5.4"
+  }
+}
